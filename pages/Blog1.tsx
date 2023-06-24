@@ -10,8 +10,8 @@ export default function FirstPost() {
                 <title>First Post</title>
             </Head>
             <div className={styles.NavBar}>
-                <div className={styles.NavBarElements}><a href="/">Home</a></div>
-                <div className={styles.NavBarElements}><a href="/posts/first-post">Blogs</a></div>
+                <div className={styles.NavBarElements}><Link href="/">Home</Link></div>
+                <div className={styles.NavBarElements}><Link href="/posts/first-post">Blogs</Link></div>
 
             </div>
             <div className={styles.Container}>
