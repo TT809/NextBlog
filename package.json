@@ -2,8 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "babel src -d lib",
-    "prebuild": "jest",
+    "build": "CI=false react-scripts build",
     "start": "next start"
   },
   "dependencies": {
